@@ -1,0 +1,8 @@
+说明：本次实验我们把所有功能打包在一个jar包内，通过指定主类选择功能。假定jar包的位置在lab2/lab2.jar位置。
+注意：选做功能1（排序）在执行时需要以基础功能的输出作为输入，请确保执行前已经执行过倒排索引。
+	基础功能（倒排索引）：
+	hadoop jar lab2/lab2.jar InvertedIndexer $input_path$ $output_dir_1$
+	选做功能1（排序）：
+	hadoop jar lab2/lab2.jar SortedCounter $output_dir_1$ $output_dir_2$
+	选做功能2（TF-IDF）：
+	hadoop jar lab2/lab2.jar TFIDF $input_path$ $output_dir_3$
